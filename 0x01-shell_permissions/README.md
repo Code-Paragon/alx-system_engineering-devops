@@ -1,0 +1,1 @@
+learning abot shell permissions
