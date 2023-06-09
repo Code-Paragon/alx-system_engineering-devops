@@ -1,2 +1,2 @@
 #!/bin/bash
-cp -ru --update --no-clobber --suffix=.bak *.html ../
+rsync -au --ignore-existing --exclude=".*" *.html ../
