@@ -1,2 +1,2 @@
 #!/bin/bash
-sort | uniq -u | less
+| sort | uniq -u | less
