@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -1 | cat -n | cat -T | grep -E '^[[:space:]]*[13579]'
